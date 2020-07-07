@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&family=Poppins&display=swap');
+
+/*
+
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first{
+    background: url('../img/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.first h1{
+    font-size: 50px;
+}
+.first h1 .name-highlight{
+    color: coral;
+}
+.first p{
+    text-align: justify;
+}
+.first{
+    overflow: hidden;
+}
+.first .left-content{
+    float: left;
+    width: 45%;
+    margin-left: 9%;
+}
+.first .right-content{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.first .right-content img{
+    width: 755px;
+    height: 475px;
+    margin-top: 55px;
+}
+.hire{
+    background-image: linear-gradient(lightSalmon,tomato );
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 555px;
+    text-decoration: none;
+}
+.second{
+    overflow: hidden;
+    background: url('../img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second .left-content{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+}
+.second .left-content img{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.second .right-content{
+    width: 50%;
+    text-align: justify;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.second .right-content a{
+    background-image: linear-gradient(brown,tomato);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-area{
+    overflow: hidden;
+    background-image: url('../img/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area .left-content{
+    float: left;
+    overflow: hidden;
+    width: 45%;
+    border-left: 5px solid tomato;
+    background-color: white;
+}
+.experience-area .right-content{
+    float: left;
+    width: 45%;
+
+    overflow: hidden;
+    margin-left: 9%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.experience-area .container{
+    padding: 0 3%;
+}
+.experience-area h1{
+    margin-top: 5%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 255px;
+}
+.experience-area .left-content ,h2, h3, p{
+    margin-left: 3%;
+    text-align: justify;
+}
+.experience-area .right-content ,h2, h3, p{
+    margin-left: 3%;
+    text-align: justify;
+}
+.latest-work{
+    overflow: hidden;
+    background: url('../img/latest-work-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-work .latest-heading h2{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.latest-work .images{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+}
+.latest-work .images img{
+    width: 100%;
+}
+.latest-work .images:nth-child(2){
+    margin: 0 2%;
+} 
+.client-area{
+    background: url('../img/footer-bg.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.client-area h2{
+    text-align: center;
+    margin: 35px 0;
+}
+.client-area .content{
+
+}
+.client-area .content #identity{
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+    text-align:center;
+}
+.client-area .content #name{
+    font-weight: bold;
+    font-size: 25px;
+    color:;
+}
+.client-area .content p{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+footer{
+    height: 85px;
+    background: #FF438E;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5%;
+}
+footer p{
+    text-align: center;
+}
+footer #mail{
+    font-size: 23px;
+}

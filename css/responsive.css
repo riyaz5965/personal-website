@@ -1,0 +1,141 @@
+@media(max-width: 768px){
+    .first{
+        width: 100%;
+        margin: 0;
+    }
+    .first .left-content{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        
+    }
+    .first .left-content p{
+        margin: 0;
+    }
+
+    .first .right-content{
+        width: 100%;
+      
+    }
+    .first .right-content img{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    .second{
+        width: 100%;
+        margin: 0;
+        background-position: right;
+    }
+    .second .left-content{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        
+    }
+    .second .left-content p{
+        margin: 0;
+    }
+
+    .second .right-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .second.right-content img{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .latest-work{
+        padding: 10%;
+    }
+    .latest-work .images{
+        width: 100%;
+    }
+    .latest-work .images img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+}
+
+
+@media(max-width:576px){
+    .first{
+        width: 100%;
+        margin: 0;
+    }
+    .first .left-content{
+        width: 90%;
+        margin-left: 0;
+        display: block;
+        padding: 0 5%;
+        
+    }
+    .first .left-content p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .first .right-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .first .right-content img{
+        width: 100%;
+        margin: 0;
+    }
+    .first .right-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .first .right-content img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .second{
+        width: 100%;
+        margin: 0;
+        background-position: right;
+    }
+    .second .left-content{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        
+    }
+    .second .left-content p{
+        margin: 0;
+    }
+
+    .second .right-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .second.right-content img{
+        width: 100%;
+        margin: 0;
+    }
+    .experience-area{
+        margin: 0;
+        padding: 0;
+    }
+    .experience-area .left-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .experience-area .right-content{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+
+}
